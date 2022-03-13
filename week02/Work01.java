@@ -15,6 +15,16 @@ public class Work01 {
 		count++;
 		return (n==1 || n==2) ? 1:n03(n-1) + n03(n-2);
 	}
+	public static void n04(int n, char a, char b, char c) {
+		if(n==1)
+			System.out.println(a+"에 있는 원반을 "+c+"로 옮긴다");
+		else {
+			n04(n-1, a, c, b);
+			System.out.println(a+"에 있는 원반을 "+c+"로 옮긴다");
+			n04(n-1,b,a,c);
+		}
+	}
 	public static void main(String[] args) {
+		n04(3,'A','B','C');
 	}
 }
