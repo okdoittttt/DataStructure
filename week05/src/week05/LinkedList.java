@@ -1,3 +1,4 @@
+
 package week05;
 
 public class LinkedList<E> implements ListInterface<E> {

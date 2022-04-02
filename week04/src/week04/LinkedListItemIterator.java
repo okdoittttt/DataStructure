@@ -1,7 +1,5 @@
 package week04;
-
 import java.util.Iterator;
-import DS에서분류하고남은것.Node2;
 
 public class LinkedListItemIterator implements Iterator<Comparable> {
 	private Node current;

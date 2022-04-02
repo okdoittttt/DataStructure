@@ -1,7 +1,5 @@
 package week04;
 
-import DS.Vertex;
-
 public interface ListIterator implements Iterator<Vertex>{
 	private int index = 0;
 	private int numVertices;

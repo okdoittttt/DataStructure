@@ -1,4 +1,5 @@
 package week04;
+
 public class ArrayList<E> implements ListInterface<E> {
 	private E item[];        
 	private int numItems;
@@ -73,7 +74,6 @@ public class ArrayList<E> implements ListInterface<E> {
 			item[index] = x; 
 		else { /* 에러 처리 */ }  
 	}
-	
 	// [알고리즘 5-7] 구현: 원소 x가 배열 리스트의 몇 번째 원소인지 알려주기
 	private final int NOT_FOUND = -12345;
 	public int indexOf(E x) {

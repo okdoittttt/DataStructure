@@ -1,5 +1,4 @@
 package week04;
-
 // 제네릭으로 수정하던 중
 public class LinkedListIteratorDemo {
 
