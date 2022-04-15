@@ -18,7 +18,10 @@ public class ArrayStackDemo {
 		stack1.push(1);
 		stack1.push(2);
 		stack1.push(3);
-		System.out.print("printAll(): "); stack1.printAll();  
+		
+//		Object copy_Stack = (LinkedStack)stack1.clone();
+		
+		System.out.print("printAll(): "); stack1.printAll();
 		stack1.popAll();
 		System.out.println("isEmpty?: " + stack1.isEmpty());
 		stack1.push(10);

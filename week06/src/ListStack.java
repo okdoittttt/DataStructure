@@ -27,6 +27,6 @@ public class ListStack<E> implements StackInterface<E> {
 
 	////////////////////////////////
 	public void printAll() {
-		// printAll();
+//		list.printAll();
 	}
 } // 코드 6-7
