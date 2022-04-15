@@ -11,6 +11,7 @@ public class LinkedQueue<E> implements QueueInterface<E>{
 	public void enqueue(E newItem) {
 		Node<E> newNode = new Node<>(newItem);
 		if (isEmpty( )) {
+			// 원형 큐 정의하는 방법
 			newNode.next = newNode;
 			tail = newNode;
 		} else {

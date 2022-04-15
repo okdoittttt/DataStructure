@@ -4,7 +4,6 @@ public class ArrayQueue<E> implements QueueInterface<E> {
 	private int front, tail, numItems;
 	private static final int DEFAULT_CAPACITY = 64;
 	private final E ERROR = null;  // 임의의 에러 값
-
 	public ArrayQueue() { // 생성자 1
 		queue = (E[]) new Object[DEFAULT_CAPACITY];
 		front = 0;
@@ -65,7 +64,7 @@ public class ArrayQueue<E> implements QueueInterface<E> {
 	}
 
 	//////////////////////////////////////////////////////////////////
-	private void printAll() {
+	public void printAll() {
 		int j = front;
 		System.out.print("PrintAll: ");
 		for(int i = 0; i < numItems; i++) {
