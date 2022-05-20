@@ -23,11 +23,11 @@ public class BinaryTree {
 			return p;
 	}
 	
-	public void insertBLT(char x) {
+	public void insertBST(char x) {
 		root = insertkey(root, x);
 	}
 	
-	public TreeNode searchBLT(char x) {
+	public TreeNode searchBST(char x) {
 		TreeNode p = root;
 		while(p != null) {
 			if(x < p.data) p = p.left;
